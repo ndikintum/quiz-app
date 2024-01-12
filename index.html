@@ -10,17 +10,17 @@
   <div id="quiz-container">
     <div>
         <label for="num-questions">Number of Questions:</label>
-        <input type="number" id="num-questions" min="1" value="5">
+        <input type="number" id="num-questions" min="1" value="5" class="stars">
     </div>
     <div>
         <label for="category">Category:</label>
-        <select id="category">
+        <select id="category" class="stars">
             <!-- Populate categories dynamically from the API -->
         </select>
     </div>
     <div>
         <label for="difficulty">Difficulty:</label>
-        <select id="difficulty">
+        <select id="difficulty" class="stars">
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
@@ -28,7 +28,7 @@
     </div>
     <div>
         <label for="question-type">Question Type:</label>
-        <select id="question-type">
+        <select id="question-type" class="stars">
             <option value="multiple">Multiple Choice</option>
             <option value="boolean">True/False</option>
         </select>
